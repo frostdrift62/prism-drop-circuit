@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prism Drop Circuit</string>
+    <string name="app_title">PRISM DROP</string>
+    <string name="splash_tagline">ROUTE THE LIGHT</string>
+    <string name="loading">LOADING</string>
+
+    <string name="play">PLAY</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="settings">SETTINGS</string>
+    <string name="menu">MENU</string>
+    <string name="drop">DROP</string>
+    <string name="drop_again">DROP AGAIN</string>
+    <string name="resume">RESUME</string>
+    <string name="paused">PAUSED</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="cancel">CANCEL</string>
+    <string name="reset_progress">RESET PROGRESS</string>
+
+    <string name="menu_hint">SLIDE THE GATES, THEN REPEAT THE PATTERN</string>
+    <string name="control_hint">DRAG A GATE TO MOVE IT · TAP A GATE TO FLIP IT</string>
+    <string name="phase_falling">THE TOKEN IS FALLING</string>
+    <string name="landing_target">TARGET LANE LOCKED · DOUBLE CHARGE</string>
+    <string name="landing_void">DEAD LANE · ONE CHARGE OF INTEGRITY LOST</string>
+    <string name="landing_plain">LANDED · %1$d CHARGE</string>
+    <string name="watch_pattern">WATCH THE PATTERN</string>
+    <string name="repeat_pattern">REPEAT THE PATTERN</string>
+
+    <string name="drop_counter">TOKEN %1$d / %2$d</string>
+    <string name="moves_counter">MOVES %1$d / %2$d</string>
+    <string name="target_lane">TARGET LANE %1$d</string>
+    <string name="pattern_progress">%1$d / %2$d</string>
+    <string name="amplifier_format">x%1$.1f</string>
+    <string name="result_hint">BEST RECORDED CHARGE %1$s</string>
+
+    <string name="circuit_complete">CIRCUIT COMPLETE</string>
+    <string name="circuit_burned_out">CIRCUIT BURNED OUT</string>
+    <string name="new_best">NEW BEST</string>
+    <string name="score_label">CHARGE</string>
+
+    <string name="stat_best">BEST</string>
+    <string name="stat_streak">STREAK</string>
+    <string name="stat_runs">RUNS</string>
+    <string name="stat_drops">TOKENS</string>
+    <string name="stat_tier">TIER</string>
+    <string name="stat_targets">TARGETS</string>
+    <string name="no_runs_yet">NO RUNS RECORDED YET</string>
+    <string name="nothing_recorded">NOTHING RECORDED YET - PLAY A RUN FIRST</string>
+
+    <string name="setting_tier">TIER</string>
+    <string name="tier_calm">CALM</string>
+    <string name="tier_standard">STANDARD</string>
+    <string name="tier_surge">SURGE</string>
+    <string name="tier_calm_detail">SHORT PATTERNS, SLOW FALL, FOUR GATE MOVES</string>
+    <string name="tier_standard_detail">GROWING PATTERNS, NORMAL FALL, THREE GATE MOVES</string>
+    <string name="tier_surge_detail">LONG PATTERNS, FAST FALL, TWO GATE MOVES</string>
+    <string name="high_contrast">HIGH CONTRAST MARKS</string>
+    <string name="hint_contrast">SHOWS EVERY PRISM MARK WITHOUT RELYING ON COLOUR</string>
+    <string name="reduced_motion">REDUCED MOTION</string>
+    <string name="hint_motion">TURNS OFF TRAILS, SPIN AND SCREEN SLIDES</string>
+    <string name="hint_tier">SETS PATTERN LENGTH, FALL SPEED AND GATE MOVES</string>
+
+    <string name="how_gates_title">ROUTE THE LIGHT</string>
+    <string name="how_gates_text">Drag a gate to move it, tap it to flip its facing. Each change costs one move.</string>
+    <string name="how_drop_title">RELEASE THE TOKEN</string>
+    <string name="how_drop_text">Press DROP. The token bounces off the circuit nodes and follows your gates.</string>
+    <string name="how_lanes_title">READ THE LANES</string>
+    <string name="how_lanes_text">Land in the lit target lane for double charge. The lane marked ✗ is dead and costs integrity.</string>
+    <string name="how_pattern_title">HOLD THE AMPLIFIER</string>
+    <string name="how_pattern_text">Repeat the prism pattern to raise the amplifier up to x4. A wrong tap or a missed pattern costs integrity.</string>
+
+    <string name="mark_star">★</string>
+    <string name="mark_check">✓</string>
+    <string name="mark_dot">·</string>
+    <string name="mark_heart">♥</string>
+    <string name="lane_void">✗</string>
+
+    <string name="cd_logo">Prism drop emblem</string>
+    <string name="cd_token">Glowing light token</string>
+    <string name="cd_gate">Deflector gate</string>
+    <string name="cd_beacon">Target lane beacon</string>
+    <string name="cd_shard">Prism shard</string>
+    <string name="cd_home">Back to menu</string>
+    <string name="cd_pause">Pause the run</string>
+    <string name="cd_prism_tile">Prism tile %1$s</string>
+
+    <string name="state_gate">Gate %1$d, lane %2$d, facing %3$s</string>
+    <string name="facing_right">right</string>
+    <string name="facing_left">left</string>
+    <string name="state_integrity">Integrity %1$d of %2$d</string>
+    <string name="state_drop_disabled">Drop unavailable</string>
+    <string name="state_tile_ready">Ready for your tap</string>
+    <string name="state_tile_locked">Watch only</string>
+    <string name="state_on">On</string>
+    <string name="state_off">Off</string>
+</resources>
